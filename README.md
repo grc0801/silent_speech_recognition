@@ -1,2 +1,7 @@
 # silent_speech_recognition
-This is a project done specially for Laryngectomy patients who's vocal cord will be removed and they can't be able to speak normally, so a system is build using emg sensor's and also with machin vision's open cv both works on, with the help of SNN architecutre and deployed on FPGA SoC board
+Project deals with Real-time voice detection using Lips tracking via mediapipe face mesh technique from it lips landmarks.
+The silent voice speech recognition is used for patients with laryngectomy surgery where the patient's vocal cord is being operated and removed out, so with only using of lips the project is being developed.
+Also the system is being implemented on Raspberry Pi 5 for real time detection process where the output is from speakers.
+Collect.py was used for collecting the dataset
+train_cnn.py used to train and with Constants.py was used for labeling and face landmarks detection
+were the predict codes were for different tested version of output's 
